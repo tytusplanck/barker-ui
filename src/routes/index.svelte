@@ -16,9 +16,10 @@
 	}
 
 	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
 	}
 
 	p {
@@ -37,4 +38,7 @@
 </svelte:head>
 
 <h1>Welcome human!</h1>
+<div>
+	<img alt='Puppy' src='puppy.jpeg'>
+</div>
 <a href="create">Add a Dog</a>
